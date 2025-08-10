@@ -1,3 +1,2 @@
-<style>
-div { width: expression(alert(document.cookie)); }
-</style>
+Body { width: expression(alert(document.cookie)); }
+
