@@ -1,0 +1,1 @@
+Body { width: expression(alert(document.cookie)); }
