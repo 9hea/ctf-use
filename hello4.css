@@ -1,0 +1,133 @@
+body {
+    background-image: url('/img/forest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+}
+.loginbox {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+    box-sizing: border-box;
+    height: 340px;
+    line-height: 24px;
+    padding: 32px;
+    tab-size: 4;
+    width: 420px;
+    color: rgb(9, 121, 105);
+}
+
+.login {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 32px;
+}
+
+input {
+    padding: 8px 16px;
+}
+
+input[type="text"],input[type="password"] {
+    width: 320px;
+    margin-bottom: 12px;
+}
+
+input[type="submit"],input[type="button"] {
+    background-color: rgb(22 163 74);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    margin-top: 12px;
+    width: 354px;
+}
+
+input[type="button"] {
+}
+
+.error {
+    color: red;
+    height: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.report-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.report-box {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(9, 121, 105);
+    width: 200px;
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    padding: 4px 8px;
+}
+
+.report-box h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.report-box p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 12px;
+}
+
+.send-report-button {
+    padding: 4px 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.send-report-button:disabled {
+    opacity: 0.6;
+}
+
+.random-theme {
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #2C3930;
+    text-decoration: none;
+    z-index: 20;
+    padding: 8px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 4px;
+}
+
+.random-theme:hover {
+    text-decoration: underline;
+}
